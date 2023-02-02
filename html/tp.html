@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== Scouticons ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== Boxicons ====================-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Portfolio - Estéban TEIXEIRA</title>
+    <link rel="shortcut icon" href="../img/Wattson.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav_logo">Estéban</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="../index.html" class="nav_link active-link">
+                            <i class="uil uil-home nav_icon"></i> Accueil
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== SERVICES ====================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Travaux fait durant mon BTS</h2>
+        <span class="section_subtitle">Mes comptes-rendus</span>
+
+        <div class="portfolio_container container swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Portfolio 1 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_C.jpg" alt="Photo CompteRenduImgPHP" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°1 <br> Projet C# </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Octobre/Novembre 2022</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet de groupe.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Développement en C#.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation IDE Visual Code.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Mise en place de la méthode Kanban.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/CompteRenduC.pdf" class="button button--flex button--small portfolio_button">
+                                Voir le compte-rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Portfolio 2 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_PHP.jpg" alt="Photo Portfolio 2" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°2 <br> Projet PHP </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Mai/Juin 2022</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet en solo.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Développement en PHP.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation IDE Visual Code et de PHPMyAdmin.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Pas de mise en place de méthode de travail.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/CompteRenduPHP.pdf"
+                                class="button button--flex button--small portfolio_button">
+                                Voir le compte rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Portfolio 3 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_Breeze.jpg" alt="Photo Portfolio 3" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°3 <br> Projet Laravel/Breeze </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Septembre/Octobre 2022</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet en solo.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Développement en PHP</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation IDE PHPStorm et de PHPMyAdmin</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Pas de mise en place de méthode de travail.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/GuideUtilisation.pdf"
+                                class="button button--flex button--small portfolio_button">
+                                Voir le compte-rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Portfolio 4 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_Python.png" alt="Photo Portfolio 4" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°4 <br> Projet Flask API </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Janvier 2023</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet en solo.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Développement en Python (Framework Flask)</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation IDE PyCharm</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Pas de mise en place de méthode de travail.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/CompteRenduFlask.pdf"
+                                class="button button--flex button--small portfolio_button">
+                                Voir le compte-rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Portfolio 5 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_CSS.jpg" alt="Photo Portfolio 5" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°5 <br> Projet Site Web </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Octobre 2021</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet en groupe.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Développement en HTML/CSS</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation console Linux et Visual Code</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Pas de mise en place de méthode de travail.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/CompteRenduCSS.pdf"
+                                class="button button--flex button--small portfolio_button">
+                                Voir le compte-rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Portfolio 6 -->
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="../img/ImageTP_rgpd.jpg" alt="Photo Portfolio 6" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <div>
+                            <h3 class="services_title">Travail Pratique n°6 <br> Compatibilité RGPD </h3>
+                        </div>
+                        <br>
+                        <ul class="services_modal-services grid">
+                            <li class="services_modal-service">
+                                <i class="uil uil-calendar-alt services_modal-icon"> Date : Avril - Mai 2022</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Projet en groupe.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Etude de documents du RGPD</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Utilisation du site web WordPress confié pour analyse.</i>
+                            </li>
+                            <li class="services_modal-service">
+                                <i class="uil uil-check-circle services_modal-icon"> Mise en place de la méthode Kanban.</i>
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="button button--flex button--small button--link services_button">
+                            <a href="../pdf/CompteRenduRGPD.pdf"
+                                class="button button--flex button--small portfolio_button">
+                                Voir le compte-rendu
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ajout de flèches -->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+            </div>
+        </div>
+    </section>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <br>
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Estéban</h1>
+                    <span class="footer_subtitle">Développeur Web</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="../index.html" class="footer_link"><i class='bx bxs-home'></i> Home</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.linkedin.com/in/esteban-teixeira-9381a8204/" target="_blank" class="footer_social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    
+                    <a href="https://www.tiktok.com/@esteicacher?is_from_webapp=1&sender_device=pc" target="_blank" class="footer_social">
+                        <i class='bx bxl-tiktok'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/esteicacher/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/LeSteackHacher" target="_blank" class="footer_social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="../js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
